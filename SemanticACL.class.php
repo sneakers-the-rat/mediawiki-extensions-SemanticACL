@@ -452,7 +452,10 @@ class SemanticACL {
 					break;
 
 				case 'public':
+					// also try adding to whitelistread
+					array_push($wgWhitelistRead, $title)
 					return true;
+
 			}
 		}
 
