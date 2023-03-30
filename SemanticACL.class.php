@@ -277,6 +277,7 @@ class SemanticACL {
 		global $smwgNamespacesWithSemanticLinks;
 		global $wgSemanticACLWhitelistIPs;
 		global $wgRequest;
+		global $wgWhitelistRead;
 
 		if ( $title->isTalkPage() ) {
 			// Talk pages get the same permission as their subject page.
